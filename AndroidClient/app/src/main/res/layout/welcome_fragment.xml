@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:id="@+id/welcome_linear">
+
+
+    <TextView
+        android:id="@+id/see_agents_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="30sp"
+        android:text="@string/see_agents_status"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="#1ca0f7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="17sp"
+        android:text="@string/see_agents_desc" />
+
+    <TextView
+        android:id="@+id/send_job_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30sp"
+        android:text="@string/create_job"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="#1ca0f7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="17sp"
+        android:text="@string/create_job_desc" />
+
+    <TextView
+        android:id="@+id/see_results_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30sp"
+        android:text="@string/see_results"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="onClickHeader"
+        android:textColor="#1ca0f7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="17sp"
+        android:text="@string/see_results_desc"/>
+
+    <TextView
+        android:id="@+id/stop_agent_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30sp"
+        android:text="@string/stop_agent"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="#1ca0f7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="17sp"
+        android:text="@string/stop_agent_desc"/>
+
+    <TextView
+        android:id="@+id/stop_periodic_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30sp"
+        android:text="@string/stop_periodic"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="#1ca0f7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="17sp"
+        android:text="@string/stop_periodic_desc"/>
+    </LinearLayout>
+
+</ScrollView>

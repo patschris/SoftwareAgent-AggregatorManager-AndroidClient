@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="action_logout">Logout</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="verify_password">Verify password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_create_account_button">Create an account</string>
+    <string name="action_clear">Clear</string>
+    <string name="login_progress">Authenticating</string>
+    <string name="registering_progress">Registering</string>
+
+    <string name="base_url">http://192.168.1.3:8080/myapp/android</string>
+
+
+    <string name="username_taken">Username is already taken</string>
+    <string name="action_account">Need an account?</string>
+    <string name="action_create_account">Type your desired credentials</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Password minimum 4 characters</string>
+    <string name="error_verification">Should match given password</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register">Create a new account</string>
+    <string name="title_activity_main">Nmap Android Client</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="see_agents_status">See Agents</string>
+    <string name="create_job">Send a new job</string>
+    <string name="see_results">See Results</string>
+    <string name="stop_periodic">Stop a periodic job</string>
+    <string name="stop_agent">Stop an Agent</string>
+    <string name="logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prompt_agents">Select an agent</string>
+    <string name="title_activity_opening">OpeningActivity</string>
+    <string name="no_active_agents">No Active Agents</string>
+    <string name="logout_str">Logging out</string>
+    <string name="configurating_str">Configurating</string>
+    <string name="logged_in_username">Team13</string>
+    <string name="logged_in_device">K23B</string>
+    <string name="select_agent_results">Select agent:</string>
+    <string name="select_num_results">Number of results:</string>
+    <string name="show_results">Show Results</string>
+    <string name="send_job_command">Command:</string>
+    <string name="send_job_periodic">Periodic:</string>
+    <string name="send_job_periodic_yes">Yes</string>
+    <string name="send_job_periodic_no">No</string>
+    <string name="send_job_time">Time:</string>
+    <string name="send_job">Send Job</string>
+    <string name="stop_agent_str">Stop Agent</string>
+    <string name="no_periodics">No periodic jobs running now</string>
+    <string name="stop_periodic_job">Stop Periodic Job</string>
+    <string name="see_agents_desc">View registered agents\' status</string>
+    <string name="create_job_desc">Send job to registered agents</string>
+    <string name="see_results_desc">View results of executed commands</string>
+    <string name="stop_agent_desc">Terminate a registered agent</string>
+    <string name="stop_periodic_desc">Terminate a periodic job</string>
+    <string name="username_minimum">Username minimum 4 characters</string>
+    <string name="requires_character">Requires at least one character</string>
+    <string name="no_internet_later">No Internet Connection\nTry later</string>
+    <string name="press_to_exit">Press again to exit</string>
+    <string name="no_internet_option">No Internet Connection\nCannot open option</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="active_agents_title">Active Agents</string>
+    <string name="agents_all">All</string>
+    <string name="software_agent">Software Agent </string>
+    <string name="results_title">Select Results to show</string>
+    <string name="select_number_results">Select number of results</string>
+    <string name="send_job_title">Send a job</string>
+    <string name="no_agent_selected">No Agent selected to send job</string>
+    <string name="set_command">Set command</string>
+    <string name="invalid_command">Invalid command</string>
+    <string name="set_period">Set period</string>
+    <string name="no_internet_job">No internet connection\nJob will be sent when connection is available</string>
+    <string name="no_internet_stop_agent">No internet connection\nAgent will be stopped when connection is available</string>
+    <string name="select_agent_stop">Select an agent to stop</string>
+    <string name="stop_periodic_title">Stop a periodic job</string>
+    <string name="no_internet_stop_job">No internet connection\nJob will be stopped when internet connection is available</string>
+    <string name="select_stop_job">Select a job to stop</string>
+    <string name="view_results_title">Results</string>
+    <string name="no_results_returned">No results returned</string>
+    <string name="results_all_agents">All Agents</string>
+    <string name="results_from">results from</string>
+    <string name="results_all">All</string>
+    <string name="results_agent"> agent</string>
+    <string name="server_is_down">Server is probably down</string>
+    <string name="create_account_first">Create an account first</string>
+    <string name="login_rejected">Login request rejected</string>
+    <string name="wrong_password">Wrong password</string>
+    <string name="already_loggedin">User already logged in!</string>
+    <string name="register_success">Registered Successfully</string>
+    <string name="agents_remain_success">Agents terminated successfully</string>
+    <string name="remain_periodics_success">Periodic jobs terminated successfully</string>
+    <string name="remain_jobs_success">Remaining jobs sent successfully</string>
+    <string name="job_sent_success">Job sent successfully</string>
+    <string name="server_error">Server encountered an error</string>
+    <string name="job_sendto">Send to:</string>
+    <string name="logged_in_success">Logged in successfully!</string>
+
+</resources>

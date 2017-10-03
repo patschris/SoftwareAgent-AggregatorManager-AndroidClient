@@ -1,0 +1,10 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="agent_online" type="drawable">@android:drawable/presence_online</item>
+    <item name="agent_offline" type="drawable">@android:drawable/presence_invisible</item>
+    <item name="agents_status" type="drawable">@android:drawable/ic_menu_view</item>
+    <item name="create_job" type="drawable">@android:drawable/ic_menu_edit</item>
+    <item name="stop_periodic" type="drawable">@android:drawable/ic_menu_delete</item>
+    <item name="stop_agent" type="drawable">@android:drawable/ic_delete</item>
+    <item name="see_results" type="drawable">@android:drawable/ic_menu_agenda</item>
+
+</resources>

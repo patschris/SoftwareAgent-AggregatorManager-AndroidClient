@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/drawer_options"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/see_status"
+            android:icon="@drawable/agents_status"
+            android:title="@string/see_agents_status" />
+        <item
+            android:id="@+id/create_job"
+            android:icon="@drawable/create_job"
+            android:title="@string/create_job" />
+        <item
+            android:id="@+id/see_results"
+            android:icon="@drawable/see_results"
+            android:title="@string/see_results" />
+        <item
+            android:id="@+id/stop_agent"
+            android:icon="@drawable/stop_agent"
+            android:title="@string/stop_agent" />
+        <item
+            android:id="@+id/stop_periodic"
+            android:icon="@drawable/stop_periodic"
+            android:title="@string/stop_periodic" />
+        <item
+            android:id="@+id/logout"
+            android:title="@string/logout" />
+
+    </group>
+
+</menu>

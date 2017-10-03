@@ -1,0 +1,56 @@
+1,-O -A -oX - 192.168.1.0/29,false,0
+2,-A -oX - 192.168.2.0/29,false,30
+3,-O -A -oX - scanme.nmap.org,false,240
+4,-O -oX - 192.168.1.4,false,0
+5,-A -v -d -oX - di.uoa.gr,true,120
+6,-sO -oX - localhost,true,90
+7,-O -oX - 192.168.1.5,false,0
+8,-A -oX - 192.168.2.1,true,20
+9,-oX - localhost,true,60
+10,-O -oX - 192.168.1.6,false,0
+11,-A -oX - 192.168.2.2,true,300
+12,-v -oX - localhost,true,50
+13,-O -oX - 192.168.2.3,false,0
+14,-A -oX - 192.168.2.4,false,0
+15,-O -A -oX - linux01.di.uoa.gr,false,0
+16,-A -oX - linux02.di.uoa.gr,false,90
+17,-O -A -oX - linux03.di.uoa.gr,false,200
+18,-O -oX - linux04.di.uoa.gr,false,0
+19,-A -oX - linux05.di.uoa.gr,true,210
+20,-sO -v -oX - localhost,true,30
+21,-O -oX - linux06.di.uoa.gr,false,0
+22,-A -oX - linux07.di.uoa.gr,true,120
+23,-sO -oX - linux08.di.uoa.gr,true,120
+24,-O -oX - adslgr.com,false,0
+25,-A -oX - linux09.di.uoa.gr,true,90
+26,-sO -d -O -oX - localhost,true,90
+27,-O -oX - linux10.di.uoa.gr,false,0
+28,-A -oX - 192.168.2.5,false,0
+29,-O -A -oX - linux11.di.uoa.gr,false,0
+30,-A -oX - scanme.nmap.org,false,30
+31,-O -A -oX - linux12.di.uoa.gr,false,30
+32,-O -oX - 192.168.1.4,false,0
+33,-A -oX - linux13.di.uoa.gr,true,100
+34,-sO -A -oX - localhost,true,40
+35,-O -oX - linux14.di.uoa.gr,false,0
+36,-A -oX - linux15.di.uoa.gr,true,150
+37,-sO -oX - linux16.di.uoa.gr,true,400
+38,-O -oX - 192.168.1.2,false,0
+39,-A -oX - linux17.di.uoa.gr,true,60
+40,-sO -oX - localhost,true,500
+41,-O -oX - linux18.di.uoa.gr,false,0
+42,-A -oX - 192.168.2.6,false,0
+43,-O -A -oX - linux19.di.uoa.gr,false,0
+44,-A -oX - linux20.di.uoa.gr,false,30
+45,-O -A -oX - linux21.di.uoa.gr,false,30
+46,-O -oX - 192.168.1.4,false,0
+47,-A -oX - 192.168.2.7,true,90
+48,-sO - localhost,true,100
+49,-O -oX - 192.168.1.5,false,0
+50,-A -oX - 192.168.2.8,true,40
+51,-O -oX - localhost,true,30
+52,-O -oX - 192.168.1.6,false,0
+53,-A -oX - 192.168.2.9,true,70
+54,-sO -O -F -Pn -d -v -A -oX - localhost,true,110
+55,-O -oX - 192.168.1.3,false,0
+56,-A -oX - 192.168.1.2,false,0
