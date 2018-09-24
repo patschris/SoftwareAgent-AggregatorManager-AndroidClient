@@ -5,6 +5,6 @@ The project consists of :
 - an Android app (Android Client)
 
 <br/>User uses the app to send Nmap commands (see [here](https://nmap.org/)) to the server. Server sends the commands to the Software Agent in order to execute them.<br/>
-We use `RESTful web services` for communication.<br/>
 Contains Javadoc.<br/>
+We use `RESTful web services` for communication.<br/>
 Written in `Java` and `Android` using _Eclipse_ and _Android Studio_.
