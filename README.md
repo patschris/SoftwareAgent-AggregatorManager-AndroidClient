@@ -1,4 +1,4 @@
-# SoftwareAgent-AggregatorManager-AndroidClient
+# Software Agent / Aggregator Manager / Android Client
 The project consists of :
 - a Java client (Software Agent)
 - a Java server (Aggregator Manager)
