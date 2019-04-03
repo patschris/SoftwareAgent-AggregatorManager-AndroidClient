@@ -13,5 +13,5 @@ Written in `Java` and `Android` using _Eclipse_ and _Android Studio_.
 Android, Java, REST, server-client, Eclipse, Android Studio
 
 ## References
-[1] https://nmap.org/
+[1] https://nmap.org/ \
 [2] https://www.oracle.com/technetwork/articles/java/index-137868.html
